@@ -128,7 +128,7 @@ venv.bak/
 .ropeproject
 
 # mkdocs documentation
-*font-awesome*
+/site
 
 # mypy
 .mypy_cache/
