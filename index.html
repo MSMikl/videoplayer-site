@@ -1,7 +1,7 @@
 <head>
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <style type="text/css">
-    .menu {
+    .player-button {
       border: none;
       cursor: pointer;
       background-color: transparent;
@@ -21,7 +21,7 @@
       display: flex;
       flex-direction: column;
     }
-    .menu-row {
+    .player-panel {
       background-color:black;
       height: 60px;
       display: flex;
@@ -34,23 +34,23 @@
 <body>
   <div class="player-container"  id="player">
     <div class="js-video-container video-container"></div>
-      <div class="menu-row">
-        <button class="js-play-button menu">
+      <div class="player-panel">
+        <button class="js-play-button player-button">
           <i class="fa fa-play" aria-hidden="true"></i>
         </button>
-        <button class="js-pause-button menu">
+        <button class="js-pause-button player-button">
           <i class="fa fa-pause" aria-hidden="true"></i>
         </button>
-        <button class="js-volume-button menu">
+        <button class="js-volume-button player-button">
           <i class="fa fa-volume-off" aria-hidden="true"></i>
         </button>
-        <button class="js-mute-button menu">
+        <button class="js-mute-button player-button">
           <i class="fa fa-volume-up" aria-hidden="true"></i>
         </button>
       <div class="space">
 
       </div>
-        <button class="js-fullscreen-button menu">
+        <button class="js-fullscreen-button player-button">
           <i class="fa fa-expand player" aria-hidden="true"></i>
         </button>
     </div>
