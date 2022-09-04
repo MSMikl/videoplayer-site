@@ -1,5 +1,8 @@
 <head>
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <style type="text/css">
     .player-button {
       border: none;
@@ -20,7 +23,7 @@
       width: 800px;
       height: 600px;
       box-shadow: 0 0 20px;
-      margin-top: 10px;
+      margin-top: 5px;
       margin-left: -2px;
       display: flex;
       flex-direction: column;
@@ -51,14 +54,11 @@
         <button class="js-mute-button player-button">
           <i class="fa fa-volume-up" aria-hidden="true"></i>
         </button>
-        <p class="js-current-time player-time">
-        </p>
-        <p class="player-time">
-          —
-        </p>
-        <p class="js-duration player-time">
+        <p class="js-current-time player-time" style="font-family: 'Roboto';">
         </p>
         <div class="space"></div>
+        <p class="js-duration player-time" style="font-family: 'Roboto';">
+        </p>
         <button class="js-fullscreen-button player-button">
           <i class="fa fa-expand player" aria-hidden="true"></i>
         </button>
