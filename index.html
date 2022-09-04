@@ -10,6 +10,9 @@
       font-size: large;
       color:white;
     }
+    .player-time {
+      color: white
+    }
     .video-container {
       flex-grow: 10;
     }
@@ -48,9 +51,14 @@
         <button class="js-mute-button player-button">
           <i class="fa fa-volume-up" aria-hidden="true"></i>
         </button>
-      <div class="space">
-
-      </div>
+        <p class="js-current-time player-time">
+        </p>
+        <p class="player-time">
+          —
+        </p>
+        <p class="js-duration player-time">
+        </p>
+        <div class="space"></div>
         <button class="js-fullscreen-button player-button">
           <i class="fa fa-expand player" aria-hidden="true"></i>
         </button>
