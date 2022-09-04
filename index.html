@@ -32,8 +32,30 @@
       background-color:black;
       height: 50;
       display: flex;
+      align-items: center;
     }
-    .space {flex-grow: 10;}
+    .progressbar {
+      flex-grow: 10;
+      height: 5px;
+      margin-left: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .progressline{
+      height: 100%;
+      border-radius: 4px;
+    }
+    .dot {
+      height: 8px;
+      width: 8px;
+      margin-left: -2px;
+      background-color: rgb(255, 1, 1);
+      box-shadow: 0 0 0 3px rgb(255, 255, 255);
+      border-radius: 50%;
+      display: inline-block;
+    }
   </style>
   <title>Видеоплеер</title>
 </head>
@@ -56,7 +78,12 @@
         </button>
         <p class="js-current-time player-time" style="font-family: 'Roboto';">
         </p>
-        <div class="space"></div>
+        <div class="js-progress progressbar" style="background-color: black;">
+          <div class="js-progress-slider progressline" style="background-color: red;"></div>
+          <div>
+            <span class="dot"></span>
+          </div>
+        </div>
         <p class="js-duration player-time" style="font-family: 'Roboto';">
         </p>
         <button class="js-fullscreen-button player-button">
