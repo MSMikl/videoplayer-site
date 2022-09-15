@@ -10,6 +10,7 @@
 .player-time {
     color: white;
     font-family: 'Roboto';
+    font-size: 16px;
 }
 .video-container {
     flex-grow: 10;
