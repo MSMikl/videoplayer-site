@@ -29,9 +29,17 @@
     display: flex;
     align-items: center;
 }
+.player-timeline {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-grow: 10;
+}
 .progressbar {
     flex-grow: 10;
     height: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: 10px;
     display: flex;
     flex-direction: row;
@@ -51,7 +59,6 @@
     transition-timing-function: ease-out;
     height: 8px;
     width: 8px;
-    margin-left: -2px;
     background-color: rgb(255, 1, 1);
     box-shadow: 0 0 0 3px rgb(255, 255, 255);
     border-radius: 50%;
