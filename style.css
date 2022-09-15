@@ -8,7 +8,8 @@
     color:white;
 }
 .player-time {
-    color: white
+    color: white;
+    font-family: 'Roboto';
 }
 .video-container {
     flex-grow: 10;
@@ -36,10 +37,12 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    background-color: black;
 }
 .progressline{
     height: 100%;
     border-radius: 4px;
+    background-color: red;
 }
 .dot {
     opacity: 0;
