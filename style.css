@@ -4,7 +4,7 @@
     background-color: transparent;
     height: 100%;
     width: 37px;
-    font-size: large;
+    font-size: 19px;
     color:white;
 }
 .player-time {
@@ -18,8 +18,8 @@
     width: 800px;
     height: 600px;
     box-shadow: 0 0 20px;
-    margin-top: 5px;
-    margin-left: -2px;
+    margin-top: 10px;
+    margin-left: 6px;
     display: flex;
     flex-direction: column;
 }
